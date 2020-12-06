@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,700;1,400&display=swap');
 
+:root{
+    --primary-color: #059669;
+}
+
 body{
     font-family: font-family: 'Source Sans Pro', 
     sans-serif;;
+}
+
+hr{
+    margin: 2rem 0rem;
 }
 
 /** container **/
@@ -15,3 +23,23 @@ body{
     max-width:600px;
     margin: auto;
 }
+
+/**links**/
+.link{
+    text-decoration: none;
+    padding: 0.5 rem 1rem;
+}
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rerm;
+    color:white
+}
+
+.secondary-link{
+    color: var(--primary-color);
+    border-radius: 0.5rerm;
+    border: 1px solid var(--primary-color);
+
+}
+
+/**BEM naming
