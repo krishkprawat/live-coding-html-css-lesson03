@@ -2,6 +2,8 @@
 
 :root{
     --primary-color: #059669;
+    --dark-grey: #374151;
+    --off-white: #F3F4F6;
 }
 
 body{
@@ -77,4 +79,53 @@ hr{
 
 .link .link-active{
     font-weight: bold;
+}
+
+/*header*/
+
+.hero{
+    padding:2rem;
+    
+}
+
+.hero .hero-img{
+    max-width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    color: var(--dark-grey);
+    padding-top:1rem;
+}
+.hero .hero-heading .heading-inverted {
+    color:var(--primary-color);
+}
+
+.section h3 {
+    text-align: center;
+    padding:2rem;
+
+}
+.ow{
+    background-color:var(--off-white);
+
+}
+
+/*footer*/
+.footer{
+    background-color: var(--primary-color);
+    padding:2rem 1rem;
+    text-align:center;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+
+.footer .link{
+    color:white;
+    
+}
+.footer ul{
+    padding-inline-start: 0rem;
 }
