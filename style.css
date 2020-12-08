@@ -112,12 +112,13 @@ hr{
     
 }
 
-.hero .hero-img{
-    max-width: 80%;
+.hero .img-circle{
+    
+    border-radius=50%;
     width:350px;
     display: block;
-    margin: auto;
-    border-style: 
+    
+    
 }
 
 .hero .hero-heading{
