@@ -113,10 +113,11 @@ hr{
 }
 
 .hero .img-circle{
-    max-width: 80%;
+    
     border-radius=50%;
     width:350px;
     display: block;
+    margin: auto;
     
     
 }
