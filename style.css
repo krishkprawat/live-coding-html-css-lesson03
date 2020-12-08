@@ -112,14 +112,12 @@ hr{
     
 }
 
-.hero .img-circle{
+.hero .hero-img{
     
-    border-radius=50%;
     width:350px;
     display: block;
     margin: auto;
-    
-    
+    border-radius:50%;
 }
 
 .hero .hero-heading{
