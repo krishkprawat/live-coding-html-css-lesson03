@@ -40,6 +40,10 @@ hr{
     padding: 0.5rem 1rem;
     box-sizing:border-box;
 }
+
+.link-active{
+    color:black;
+}
 .primary-link{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
