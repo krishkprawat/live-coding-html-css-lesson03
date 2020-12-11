@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 :root{
     --primary-color:#34D399;
@@ -8,8 +8,7 @@
 }
 
 body{
-    font-family: font-family: 'Montesrrat', 
-    sans-serif;;
+    font-family: font-family: font-family: 'Poppins', sans-serif;
     margin:0px
     
 }
@@ -20,7 +19,7 @@ hr{
 
 /*spaces*/
 .margin-md{
-    margin:2rem;
+    margin:3rem;
 }
 
 /** container **/
@@ -32,6 +31,7 @@ hr{
 .container-center{
     max-width:700px;
     margin: auto;
+    font-family: "Poppins";
 }
 
 /**links**/
@@ -125,6 +125,9 @@ hr{
     padding-top:1rem;
     text-align: center;
 }
+
+
+
 .hero .hero-heading .heading-inverted {
     color:var(--primary-color);
 }
