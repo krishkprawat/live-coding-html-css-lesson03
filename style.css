@@ -3,13 +3,30 @@
 :root{
     --primary-color:#34D399;
     --dark-grey: #374151;
-    --off-white: #F3F4F6;
-    background-color:#ECFDF5; 
+    /* --off-white: #F3F4F6; */
+     background-color:#ECFDF5;
+    
 }
 
 body{
     font-family: font-family: font-family: 'Poppins', sans-serif;
-    margin:0px
+    margin:0px;
+    color: #eeeeee;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(101, 115, 255),
+    rgb(122, 113, 238),
+    rgb(143, 112, 220),
+    rgb(164, 110, 203),
+    rgb(185, 109, 185),
+    rgb(206, 107, 168),
+    rgb(178, 125, 175),
+    rgb(149, 143, 181),
+    rgb(121, 162, 188),
+    rgb(92, 180, 194),
+    rgb(64, 198, 201),
+    rgb(35, 216, 207)
+  )
     
 }
 
@@ -78,8 +95,8 @@ hr{
 /**navigations*/
 
 .navigation{
-    background-color: var(--primary-color);
-    color: white;
+    /* background-color: var(--primary-color);
+    color: white; */
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -148,8 +165,8 @@ hr{
 
 /*footer*/
 .footer{
-    background-color: var(--primary-color);
-    padding:2rem 0rem;
+    /* background-color: var(--primary-color); */
+    padding:1rem 1rem;
     text-align:center;
     color: white;
     border-top-right-radius: 1rem;
@@ -163,7 +180,7 @@ hr{
 }
 
 .footer .link{
-    color:white;
+    color:white; */
     
 }
 .footer ul{
