@@ -113,6 +113,7 @@ hr{
 
 .navigation .nav-pills{
     text-align: right;
+    font-weight: bolder;
 
 }
 .navigation .link{
@@ -122,6 +123,7 @@ hr{
 .navigation .link-active{
     font-weight: bold;
     color:white;
+    font-size: large;
     
 }
 
